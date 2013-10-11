@@ -1,0 +1,25 @@
+{
+  "name": "livemark",
+  "title": "livemark",
+  "description": "embedabble markdown editor with live preview",
+  "version": "0.0.1-alpha",
+  "homepage": "https://github.com:naps62/livemark.js",
+  "author": {
+    "name": "Miguel Palhas"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/naps62/livemark.js.git"
+  },
+  "keywords": [
+    "livemark",
+    "markdown",
+    "preview",
+    "library"
+  ],
+  "licences": [{
+    "type": "BDS",
+    "url": "https://github.com/naps62/livemark.js/raw/master/license.txt"
+  }],
+  "main": "./src/livemark"
+}

@@ -1,0 +1,39 @@
+body {
+  font-family: "Source Code Pro", sans-serif;
+  margin: 20px;
+  background-color: #ccc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#demo {
+  border: solid 1px;
+  background-color: #fff;
+}
+
+.livemark__container {
+}
+
+.livemark__editor-wrap,
+.livemark__preview-wrap {
+  float: left;
+  width: 50%;
+}
+
+.livemark__editor,
+.livemark__preview {
+  height: 150px;
+}
+
+.livemark__editor {
+  overflow: hidden;
+  resize: none;
+  width: 100%;
+}
+
+.livemark__clearfix {
+  clear: both;
+}
