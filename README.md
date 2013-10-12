@@ -1,4 +1,4 @@
-# Livemark.js
+# Livemark.js ![Build Status(https://travis-ci.org/naps62/livemark.js.png?branch=master)](https://travis-ci.org/naps62/livemark.js.png?branch=master)
 
 An embbedable and fully customizable Markdown editor with live preview
 
