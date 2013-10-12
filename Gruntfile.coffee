@@ -12,14 +12,14 @@ module.exports = (grunt) ->
       coffee: 'src/coffee/**/*.coffee',
       sass: 'src/sass/**/*.sass',
       coffee_spec: 'spec/coffee/**/*_spec.coffee',
-      js_spec: 'spec/js/**/*.js'
+      js_spec: 'spec/js/**/spec.js',
 
     watch:
       css:
         files: '<%= meta.sass %>'
         tasks: ['compass:dev']
       coffee:
-        files: ['<%= meta.coffee %>', '<%= meta.coffee_spec %>'],
+        files: ['<%= meta.coffee %>', '<%= meta.coffee_spec %>']
         tasks: ['coffee', 'jasmine:spec']
 
     coffee:
