@@ -11,15 +11,23 @@
     "type": "git",
     "url": "https://github.com/naps62/livemark.js.git"
   },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-contrib-coffee": "~0.7.0",
+    "grunt-contrib-compass": "~0.6.0"
+  },
   "keywords": [
     "livemark",
     "markdown",
     "preview",
     "library"
   ],
-  "licences": [{
-    "type": "BDS",
-    "url": "https://github.com/naps62/livemark.js/raw/master/license.txt"
-  }],
+  "licences": [
+    {
+      "type": "BDS",
+      "url": "https://github.com/naps62/livemark.js/raw/master/license.txt"
+    }
+  ],
   "main": "./src/livemark"
 }
