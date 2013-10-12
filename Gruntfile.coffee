@@ -8,7 +8,7 @@ module.exports = (grunt) ->
     watch:
       css:
         files: 'src/sass/**/*.sass',
-        tasks: ['compass']
+        tasks: ['compass:dev']
       coffee:
         files: 'src/coffee/**/*.coffee',
         tasks: ['coffee']
@@ -18,7 +18,7 @@ module.exports = (grunt) ->
         options:
           sourceMap: true
         files:
-          'livemark.js': 'src/coffee/*.coffee'
+          'js/livemark.js': 'src/coffee/**/*.coffee'
 
     compass:
       dist:
@@ -33,4 +33,3 @@ module.exports = (grunt) ->
   )
 
   grunt.registerTask 'default', ['watch']
-
