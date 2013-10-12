@@ -1,35 +1,42 @@
-body
-  font-family: "Source Code Pro", sans-serif
-  margin: 20px
+@import "compass/layout/stretching"
+@import "compass/utilities"
+@import "compass/css3"
+
+.livemark__header,
+.livemark__footer
   background-color: #ccc
 
-*
-  margin: 0
-  padding: 0
+.livemark__editor-wrap
+  background-color: #eee
 
+.livemark__preview-wrap
+  background-color: #eee
 
-#demo
-  border: solid 1px
-  background-color: #fff
-
+.livemark__editor
+  background-color: transparent
 
 .livemark__editor-wrap,
 .livemark__preview-wrap
-  float: left
+  +box-sizing(border-box)
   width: 50%
+  position: relative
+  +inline-block
+  height: 90%
 
 
 .livemark__editor,
 .livemark__preview
-  height: 150px
+  overflow-y: scroll
+  +stretch
+  border: none
+  padding: 10px
 
 
 .livemark__editor
-  overflow: hidden
   resize: none
   width: 100%
+  outline: none
+  margin: 0
 
-
-.livemark__clearfix
-  clear: both
-
+.livemark__preview:empty:before
+  content: 'And it renders here'
