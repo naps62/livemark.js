@@ -1,6 +1,8 @@
 class @LivemarkConverter
 
-  constructor: (@src, @dst) ->
+  constructor: (src, dst) ->
+    @src = $(src)
+    @dst = $(dst)
     @showdown = new Showdown.converter({ extensions: [
         'github',
         'twitter',
