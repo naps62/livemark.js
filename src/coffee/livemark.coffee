@@ -4,14 +4,13 @@ class @Livemark
 
   template: """
   <div class='livemark__container'>
-    <div class='livemark__header'>HEADER</div>
+    <div class='livemark__header'></div>
     <div class='livemark__editor-wrap'>
       <textarea class='livemark__editor' placeholder='Type markdown here'></textarea>
     </div><div class='livemark__preview-wrap'>
       <div class='livemark__preview'></div>
     </div>
-    <div class='livemark__clearfix'></div>
-    <div class='livemark__footer'>FOOTER</div>
+    <div class='livemark__footer'></div>
   </div>
   """
 

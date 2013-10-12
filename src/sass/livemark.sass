@@ -4,7 +4,6 @@
 
 .livemark__header,
 .livemark__footer
-  background-color: #ccc
 
 .livemark__editor-wrap
   background-color: #eee
@@ -17,17 +16,16 @@
 
 .livemark__editor-wrap,
 .livemark__preview-wrap
-  +box-sizing(border-box)
+  +inline-block
   width: 50%
   position: relative
-  +inline-block
-  height: 90%
+  height: 10em
 
 
 .livemark__editor,
 .livemark__preview
-  overflow-y: scroll
   +stretch
+  overflow-y: auto
   border: none
   padding: 10px
 
